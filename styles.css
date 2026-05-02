@@ -500,6 +500,7 @@ footer a:last-child {
 
 
 /* MEDIA QUERIES (MEDIUM) */ 
+@media screen and (min-width:800px)
 
     #results {
         grid-template-columns: 1fr 1fr;
@@ -517,3 +518,4 @@ footer a:last-child {
 
 
 /* MEDIA QUERIES (LARGE) */
+@media screen and (min-width:1024px)
