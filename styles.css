@@ -70,6 +70,7 @@ table {
 body {
     font-family: var(--font);
     line-height: 150%;
+    font-size: 16px;
 }
 
 nav {
@@ -225,8 +226,8 @@ header h2 {
 
 header p {
     color: var(--white);
-    padding-bottom: 15px;
-    margin: 0px 25px;
+    padding: 0px 5px 15px 10px;
+    
 }
 
 .header-blur {
@@ -264,6 +265,29 @@ main h2 {
 
 .expert h2 {
     font-weight: 600;
+}
+
+.offer-main h2 {
+    margin-bottom: 10px;
+}
+
+.offer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.offer-card {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
+    padding: 30px 15px 15px 15px;
+}
+
+.offer-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
 }
 
 
