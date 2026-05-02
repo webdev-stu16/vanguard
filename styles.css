@@ -69,6 +69,7 @@ table {
 
 body {
     font-family: var(--font);
+    line-height: 150%;
 }
 
 nav {
@@ -224,7 +225,6 @@ header h2 {
 
 header p {
     color: var(--white);
-    line-height: 150%;
     padding-bottom: 15px;
 }
 
@@ -236,6 +236,17 @@ header p {
     padding: 20px;
     border: none;
     border-radius: 10px;
+}
+
+/* MAIN CSS starts here */
+main {
+    padding-top: 35px;
+}
+
+main h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0px 0px 20px 15px;
 }
 
 
