@@ -345,7 +345,6 @@ tbody tr:nth-child(even) {
 
 .contact-main form label {
     display: block;
-    margin-bottom: -3px;
 }
 
 .contact-main form input[type=text], input[type=email], textarea {
