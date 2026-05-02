@@ -297,6 +297,7 @@ main h2 {
 .results-main {
     background-color: var(--blue);
     color: var(--white);
+    padding-bottom: 15px;
 }
 
 .results-main h3 {
