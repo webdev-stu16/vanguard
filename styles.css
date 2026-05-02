@@ -210,6 +210,34 @@ nav input:checked ~ label:not(.steps) span::before, nav input:checked ~ label:no
 }
 }
 
+/* HEADER CSS starts here */
+header {
+    align-content: center;
+}
+
+header h2 {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: var(--white);
+    line-height: 150%;
+    padding-bottom: 15px;
+}
+
+.consult-btn {
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
