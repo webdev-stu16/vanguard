@@ -236,6 +236,12 @@ header p {
     padding: 20px;
     border: none;
     border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.consult-btn:hover {
+    background-color: var(--red);
+    transform: scale(1.1);
 }
 
 /* MAIN CSS starts here */
