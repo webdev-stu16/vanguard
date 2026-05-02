@@ -87,8 +87,6 @@ nav .brand {
         align-self: center;
     }
 
-
-
 nav h1 {
     color: var(--blue);
     font-size: 2rem;
@@ -369,6 +367,24 @@ tbody tr:nth-child(even) {
     font-size: 16px;
 }
 
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px 0px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: var(--blue);
+}
+
+footer a:last-child {
+    color: var(--white);
+    text-decoration: none;
+}
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
