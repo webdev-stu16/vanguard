@@ -112,7 +112,7 @@ nav li a {
     color: var(--blue);
     display: block;
     text-decoration: none;
-    transition: backgrounf-color .3s ease-in;
+    transition: background-color 1s ease;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.5rem;
