@@ -76,8 +76,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 0px 5px 5px 0px var(--blue);
-    padding: 20px;
-    z-index: 10;
+    padding: 40px 20px 15px 25px;
     position: relative;
 }
 
@@ -89,8 +88,8 @@ nav .brand {
 
 nav h1 {
     color: var(--blue);
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 nav h2 {
@@ -116,7 +115,7 @@ nav li a {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.5rem;
-    padding: 10px;
+    padding: 20px 0px ;
 }
 
 nav a:hover, nav input:hover {
@@ -230,7 +229,6 @@ nav input:checked ~ label:not(.steps) span::before, nav input:checked ~ label:no
     text-align: center;
     padding: 1rem;
     overflow: hidden;
-    z-index: 1;
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
@@ -241,7 +239,7 @@ nav input:checked ~ label:not(.steps) span::before, nav input:checked ~ label:no
     width: 3.75rem;
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
-
+    position: relative;
 }
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
