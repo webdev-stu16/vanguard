@@ -279,7 +279,19 @@ main h2 {
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
     position: relative;
+    animation: floating 5s ease-in infinite;
 }
+
+@keyframes floating {
+    to, from {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
