@@ -382,6 +382,12 @@ tbody tr:nth-child(even) {
     font-weight: bold;
     margin: 15px 0px;
     font-size: 16px;
+    transition: all .3s ease-in-out;
+}
+
+.contact-main form input[type=submit]:hover {
+    background-color: var(--red);
+    transform: scale(1.025);
 }
 
 footer {
@@ -465,7 +471,7 @@ footer a:last-child {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: all 1s linear ease-out;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
