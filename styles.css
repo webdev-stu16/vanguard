@@ -226,6 +226,13 @@ header h2 {
 header p {
     color: var(--white);
     padding-bottom: 15px;
+    margin: 0px 25px;
+}
+
+.header-blur {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-top: 25px;
 }
 
 .consult-btn {
