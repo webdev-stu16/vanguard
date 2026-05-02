@@ -71,7 +71,7 @@ body {
     font-family: var(--font);
     line-height: 150%;
     font-size: 14px;
-    min-width: 441px;
+    
 }
 
 nav {
@@ -383,6 +383,10 @@ footer a {
 footer a:last-child {
     color: var(--white);
     text-decoration: none;
+}
+
+h1 {
+    
 }
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
