@@ -246,13 +246,17 @@ header p {
 
 /* MAIN CSS starts here */
 main {
-    padding-top: 35px;
+    padding-top: 10px;
 }
 
 main h2 {
     font-size: 1.7rem;
     font-weight: bold;
-    padding: 0px 0px 20px 15px;
+    padding: 25px 0px 20px 15px;
+}
+
+.expert h2 {
+    font-weight: 600;
 }
 
 
