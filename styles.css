@@ -291,6 +291,7 @@ main h2 {
 .offer-card h3 {
     font-size: 1.2rem;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .results-main {
