@@ -70,7 +70,7 @@ table {
 body {
     font-family: var(--font);
     line-height: 150%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 nav {
@@ -324,6 +324,47 @@ th, td {
 
 tbody tr:nth-child(even) {
     background-color: var(--charcoal);
+}
+
+.contact-main {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.contact-main h2 {
+    padding-top: 35px;
+}
+
+.contact-main p {
+    padding-bottom: 15px;
+}
+
+.contact-main form p {
+    padding-bottom: 10px;
+}
+
+.contact-main form label {
+    display: block;
+    margin-bottom: -3px;
+}
+
+.contact-main form input[type=text], input[type=email], textarea {
+    border: 2px solid var(--blue);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-main form input[type=submit] {
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    color: var(--white);
+    font-weight: bold;
+    margin: 15px 0px;
+    font-size: 16px;
 }
 
 
