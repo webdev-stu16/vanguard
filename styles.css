@@ -525,6 +525,7 @@ footer a:last-child {
     .results-container {
         flex-direction: row;
         justify-content: space-between;
+        display: flex;
     }
     .results-table {
         width: 50%;
