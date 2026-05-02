@@ -63,6 +63,44 @@ table {
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+
+nav {
+    background-color: var(--black);
+}
+
+nav h1 {
+    color: var(--blue);
+}
+
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+
+nav ul {
+    width: 100%;
+    max-height: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+    overflow: hidden;
+}
+
+nav li a {
+    color: var(--blue);
+    display: block;
+    text-decoration: none;
+    trans
+}
+
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
@@ -85,9 +123,9 @@ table {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
- {
+ h1::before {
     content: "";
-
+    float: left;
     left:-.5rem;
     width: 3.75rem;
     height: 3.75rem;
