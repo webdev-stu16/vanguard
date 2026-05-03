@@ -578,4 +578,14 @@ footer a:last-child {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 20px;
+    }
+
+    .contact-main form input[type=submit] {
+    max-height: 48px;
+}
+
 }
